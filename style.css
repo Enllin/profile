@@ -1,0 +1,28 @@
+.mane {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  transform: rotate3d(2);
+}
+
+.first {
+  color: rgb(120, 49, 49);
+}
+
+.second {
+  color: rgb(31, 127, 127);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  bo
+}
